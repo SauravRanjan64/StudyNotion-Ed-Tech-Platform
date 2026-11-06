@@ -5,6 +5,7 @@
 
 [build.environment]
   CI = "false"
+  SECRETS_SCAN_OMIT_KEYS = "REACT_APP_RAZORPAY_KEY"
 
 [[redirects]]
   from = "/*"
