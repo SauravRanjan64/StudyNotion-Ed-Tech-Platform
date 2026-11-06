@@ -1,5 +1,6 @@
+const path = require("path");
 // Load environment variables FIRST, before any module reads process.env
-require("dotenv").config();
+require("dotenv").config({ path: path.resolve(__dirname, ".env") });
 
 const express = require("express");
 const cookieParser = require("cookie-parser");
