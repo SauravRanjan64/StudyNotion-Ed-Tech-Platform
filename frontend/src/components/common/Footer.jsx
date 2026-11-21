@@ -150,7 +150,7 @@ const Footer = () => {
                     }
                 </div>
 
-                <div>Made with ❤️ Abhishek © 2023 StudyNotion</div>
+                <div>Made with ❤️ Saurav Ranjan © 2025 StudyNotion</div>
             </div>
         </div>
     </div>
